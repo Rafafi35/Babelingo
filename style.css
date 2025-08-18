@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    flex-direction: column;
+    
+}
+
+.container {
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    font-size: 3em;
+}
