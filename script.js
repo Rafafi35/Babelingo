@@ -23,7 +23,15 @@ lückentextAnzeige.textContent = lückenText
 let lückenTextTeile = lückenText.split("_")
 
 document.addEventListener("keydown", function (event) {
-    loesungswort += event.key
-    lückentextAnzeige.textContent = lückenTextTeile[0] + loesungswort + lückenTextTeile[1]
+    if (event.key.length === 1) {
+        if (loesungswort.length < 25) {
+            loesungswort += event.key
+            lückentextAnzeige.textContent = lückenTextTeile[0] + loesungswort + lückenTextTeile[1]
+        }
+    } else if (event.key = "Backspace") {
+        loesungswort = loesungswort.slice(0, -1)
+        lückentextAnzeige.textContent = lückenTextTeile[0] + loesungswort + lückenTextTeile[1]
+    }
+
 
 })
