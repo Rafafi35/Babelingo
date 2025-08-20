@@ -2,88 +2,104 @@ const data = {
     "aufgaben": [
         {
             "fremdSatz": "This place is wonderful!",
-            "lückenSatz": "Dieser Ort ist _!",
-            "lösungswort": "wunderbar"
+            "ersterTeil": "Dieser Ort ist ",
+            "lösungswort": "wunderbar",
+            "zweiterTeil": "!"
         },
         {
-            "fremdSatz": "This is a once-in-a-lifetime oppertunity!",
-            "lückenSatz": "Dies ist eine einmalige _!",
-            "lösungswort": "Gelegenheit"
+            "fremdSatz": "This is a once-in-a-lifetime opportunity!",
+            "ersterTeil": "Dies ist eine einmalige ",
+            "lösungswort": "Gelegenheit",
+            "zweiterTeil": "!"
         },
         {
             "fremdSatz": "I am feeling very tired today.",
-            "lückenSatz": "Ich fühle mich heute sehr _.",
-            "lösungswort": "müde"
+            "ersterTeil": "Ich fühle mich heute sehr ",
+            "lösungswort": "müde",
+            "zweiterTeil": "."
         },
         {
             "fremdSatz": "She always speaks the truth.",
-            "lückenSatz": "Sie sagt immer die _.",
-            "lösungswort": "Wahrheit"
+            "ersterTeil": "Sie sagt immer die ",
+            "lösungswort": "Wahrheit",
+            "zweiterTeil": "."
         },
         {
             "fremdSatz": "We need to hurry or we will be late.",
-            "lückenSatz": "Wir müssen uns _ oder wir kommen zu spät.",
-            "lösungswort": "beeilen"
+            "ersterTeil": "Wir müssen uns ",
+            "lösungswort": "beeilen",
+            "zweiterTeil": " oder wir kommen zu spät."
         },
         {
             "fremdSatz": "He is an excellent musician.",
-            "lückenSatz": "Er ist ein hervorragender _.",
-            "lösungswort": "Musiker"
+            "ersterTeil": "Er ist ein hervorragender ",
+            "lösungswort": "Musiker",
+            "zweiterTeil": "."
         },
         {
             "fremdSatz": "I forgot my homework at home.",
-            "lückenSatz": "Ich habe meine Hausaufgaben zu _ vergessen.",
-            "lösungswort": "Hause"
+            "ersterTeil": "Ich habe meine Hausaufgaben zu ",
+            "lösungswort": "Hause",
+            "zweiterTeil": " vergessen."
         },
         {
             "fremdSatz": "They are very friendly people.",
-            "lückenSatz": "Sie sind sehr _ Menschen.",
-            "lösungswort": "freundliche"
+            "ersterTeil": "Sie sind sehr ",
+            "lösungswort": "freundliche",
+            "zweiterTeil": " Menschen."
         },
         {
             "fremdSatz": "Can you help me with this problem?",
-            "lückenSatz": "Kannst du mir bei diesem _ helfen?",
-            "lösungswort": "Problem"
+            "ersterTeil": "Kannst du mir bei diesem ",
+            "lösungswort": "Problem",
+            "zweiterTeil": " helfen?"
         },
         {
             "fremdSatz": "I enjoy reading books in my free time.",
-            "lückenSatz": "Ich lese in meiner Freizeit gerne _.",
-            "lösungswort": "Bücher"
+            "ersterTeil": "Ich lese in meiner Freizeit gerne ",
+            "lösungswort": "Bücher",
+            "zweiterTeil": "."
         },
         {
             "fremdSatz": "It is raining heavily outside.",
-            "lückenSatz": "Draußen regnet es _.",
-            "lösungswort": "stark"
+            "ersterTeil": "Draußen regnet es ",
+            "lösungswort": "stark",
+            "zweiterTeil": "."
         },
         {
             "fremdSatz": "She bought a beautiful dress for the party.",
-            "lückenSatz": "Sie hat ein wunderschönes _ für die Party gekauft.",
-            "lösungswort": "Kleid"
+            "ersterTeil": "Sie hat ein wunderschönes ",
+            "lösungswort": "Kleid",
+            "zweiterTeil": " für die Party gekauft."
         }
     ]
 }
-const fremdTextAnzeige = document.getElementById("fremdText")
-const lückentextAnzeige = document.getElementById("lückenText")
 
-let loesungswort = ""
+const fremdTextAnzeige = document.getElementById("fremdText")
+const ersterTeilAnzeige = document.getElementById("ersterTeil")
+const zweiterTeilAnzeige = document.getElementById("zweiterTeil")
+const lösungswortAnzeige = document.getElementById("lösungswort")
+
+let lösungswort = ""
 let aufgabenIndex = 0
 
 fremdTextAnzeige.textContent = data.aufgaben[0].fremdSatz
-let lückenText = data.aufgaben[0].lückenSatz
-lückentextAnzeige.textContent = lückenText
-let lückenTextTeile = lückenText.split("_")
+let ersterTeil = data.aufgaben[0].ersterTeil
+let zweiterTeil = data.aufgaben[0].zweiterTeil
+ersterTeilAnzeige.textContent = ersterTeil
+zweiterTeilAnzeige.textContent = zweiterTeil
 
 document.addEventListener("keydown", function (event) {
     if (event.key.length === 1) {
-        if (loesungswort.length < 25) {
-            loesungswort += event.key
-            lückentextAnzeige.textContent = lückenTextTeile[0] + loesungswort + lückenTextTeile[1]
+        if (lösungswort.length < 25) {
+            lösungswort += event.key
+            lösungswortAnzeige.textContent = lösungswort
         }
     } else if (event.key === "Backspace") {
-        loesungswort = loesungswort.slice(0, -1)
-        lückentextAnzeige.textContent = lückenTextTeile[0] + loesungswort + lückenTextTeile[1]
+        lösungswort = lösungswort.slice(0, -1)
+        lösungswortAnzeige.textContent = lösungswort
     } else if (event.key === "Enter") {
-        if (loesungswort === data.aufgaben[aufgabenIndex].lösungswort) {
+        if (lösungswort === data.aufgaben[aufgabenIndex].lösungswort) {
             console.log("Korrekt")
         } else {
             console.log("Falsch")
@@ -98,9 +114,11 @@ function nächsteAufgabe() {
     } else {
         aufgabenIndex++
     }
-    loesungswort = ""
+    lösungswort = ""
     fremdTextAnzeige.textContent = data.aufgaben[aufgabenIndex].fremdSatz
-    lückenText = data.aufgaben[aufgabenIndex].lückenSatz
-    lückentextAnzeige.textContent = lückenText
-    lückenTextTeile = lückenText.split("_")
+    ersterTeil = data.aufgaben[aufgabenIndex].ersterTeil
+    zweiterTeil = data.aufgaben[aufgabenIndex].zweiterTeil
+    ersterTeilAnzeige.textContent = ersterTeil
+    zweiterTeilAnzeige.textContent = zweiterTeil
+    lösungswortAnzeige.textContent = lösungswort
 }
