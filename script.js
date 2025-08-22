@@ -7,6 +7,10 @@ let data
 let lösungswort = ""
 let aufgabenIndex = 0
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 fetch("./data.json")
   .then(response => response.json())
   .then(json => {
@@ -18,7 +22,7 @@ fetch("./data.json")
   })
   .catch(err => console.error("Fehler beim Laden von JSON:", err))
 
-document.addEventListener("keydown", function (event) {
+document.addEventListener("keydown", async function (event) {
     if (!data) return
     if (event.key.length === 1) {
         if (lösungswort.length < 25) {
@@ -31,10 +35,18 @@ document.addEventListener("keydown", function (event) {
     } else if (event.key === "Enter") {
         if (lösungswort === data.aufgaben[aufgabenIndex].lösungswort) {
             console.log("Korrekt")
+            nächsteAufgabe()   
         } else {
             console.log("Falsch")
+            lösungswortAnzeige.style.color = "red"
+            lösungswortAnzeige.classList.add("falsch")
+            lösungswortAnzeige
+            await sleep(750)
+            lösungswortAnzeige.style.color = ""
+            lösungswortAnzeige.classList.remove("falsch")
+            lösungswort = ""
+            lösungswortAnzeige.textContent = lösungswort
         }
-        nächsteAufgabe()
     }
 })
 
