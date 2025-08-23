@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: #6ec1e4; /* Grundfarbe Himmel/Wasser */
+  position: relative;
+}
+
+.wave {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 43%;
+  animation: waveMove 10s linear infinite;
+  bottom: 0;
+}
+
+.wave:nth-child(2) {
+  background: rgba(255, 255, 255, 0.2);
+  animation: waveMove 15s linear infinite reverse;
+  bottom: 10px;
+}
+
+.wave:nth-child(3) {
+  background: rgba(255, 255, 255, 0.15);
+  animation: waveMove 20s linear infinite;
+  bottom: 20px;
+}
+
+@keyframes waveMove {
+  0% { transform: translateX(0) translateY(0) rotate(0deg); }
+  50% { transform: translateX(-25%) translateY(15px) rotate(5deg); }
+  100% { transform: translateX(0) translateY(0) rotate(0deg); }
+}

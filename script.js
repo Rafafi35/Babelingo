@@ -20,7 +20,6 @@ fetch("./data.json")
         data = json
 
         aufgabenIndex = Math.floor(Math.random() * data.aufgaben.length)
-        console.log(aufgabenIndex)
         fremdTextAnzeige.textContent = data.aufgaben[aufgabenIndex].fremdSatz
         ersterTeilAnzeige.textContent = data.aufgaben[aufgabenIndex].ersterTeil
         zweiterTeilAnzeige.textContent = data.aufgaben[aufgabenIndex].zweiterTeil
