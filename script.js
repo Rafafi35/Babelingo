@@ -35,6 +35,9 @@ document.addEventListener("keydown", async function (event) {
         lösungswortAnzeige.textContent = lösungswort
     } else if (event.key === "Enter") {
         if (lösungswort === data.aufgaben[aufgabenIndex].lösungswort) {
+            lösungswortAnzeige.style.color = "#0b7e0bff"
+            await sleep(500)
+            lösungswortAnzeige.style.color = ""
             nächsteAufgabe()
         } else {
             await falsch()
