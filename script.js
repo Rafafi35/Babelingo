@@ -74,6 +74,10 @@ async function falsch() {
     if (versuch === 1) {
         versuch = 2
     } else if (versuch === 2) {
+        lösungswortAnzeige.textContent = data[sprache][aufgabenIndex].lösungswort[0]
+        lösungswortAnzeige.style.color = "darkviolet"
+        await sleep(1500)
+        lösungswortAnzeige.style.color = ""
         nächsteAufgabe()
         versuch = 1
     }
