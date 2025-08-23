@@ -1,122 +1,172 @@
 {
     "englischB1": [
         {
-            "fremdSatz": "I usually go shopping on Saturdays.",
-            "ersterTeil": "Ich gehe normalerweise am ",
-            "lösungswort": ["samstag", "wochenende"],
-            "zweiterTeil": " einkaufen."
+            "fremdSatz": "I often take the bus to school.",
+            "ersterTeil": "Ich fahre oft mit dem ",
+            "lösungswort": ["bus"],
+            "zweiterTeil": " zur Schule."
         },
         {
-            "fremdSatz": "She is waiting at the bus stop.",
-            "ersterTeil": "Sie wartet an der ",
-            "lösungswort": ["haltestelle", "bushaltestelle"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "The weather is very cold today.",
-            "ersterTeil": "Das Wetter ist heute sehr ",
-            "lösungswort": ["kalt", "frostig"],
+            "fremdSatz": "My favorite food is pizza.",
+            "ersterTeil": "Mein Lieblingsessen ist ",
+            "lösungswort": ["pizza"],
             "zweiterTeil": "."
         }
     ],
     "englischB2": [
         {
-            "fremdSatz": "The meeting was postponed due to unforeseen circumstances.",
-            "ersterTeil": "Die Besprechung wurde aufgrund ",
-            "lösungswort": ["unvorhergesehener", "unerwarteter"],
-            "zweiterTeil": " Umstände verschoben."
+            "fremdSatz": "He gave a convincing argument during the discussion.",
+            "ersterTeil": "Er brachte in der Diskussion ein ",
+            "lösungswort": ["überzeugendes", "schlüssiges"],
+            "zweiterTeil": " Argument."
         },
         {
-            "fremdSatz": "She expressed her opinion convincingly.",
-            "ersterTeil": "Sie hat ihre Meinung sehr ",
-            "lösungswort": ["überzeugend", "schlüssig"],
-            "zweiterTeil": " geäußert."
-        },
-        {
-            "fremdSatz": "The novel deals with complex social issues.",
-            "ersterTeil": "Der Roman behandelt komplexe ",
-            "lösungswort": ["gesellschaftliche", "soziale"],
-            "zweiterTeil": " Themen."
+            "fremdSatz": "We need to consider the consequences of our actions.",
+            "ersterTeil": "Wir müssen die ",
+            "lösungswort": ["folgen", "konsequenzen"],
+            "zweiterTeil": " unseres Handelns bedenken."
         }
     ],
+    "englischC1": [
+        {
+            "fremdSatz": "The report provides a comprehensive analysis of the issue.",
+            "ersterTeil": "Der Bericht liefert eine ",
+            "lösungswort": ["umfassende", "gründliche"],
+            "zweiterTeil": " Analyse des Problems."
+        },
+        {
+            "fremdSatz": "She managed to articulate her thoughts with remarkable clarity.",
+            "ersterTeil": "Sie konnte ihre Gedanken mit bemerkenswerter ",
+            "lösungswort": ["klarheit", "deutlichkeit"],
+            "zweiterTeil": " darlegen."
+        }
+    ],
+    "englischC2": [
+        {
+            "fremdSatz": "His writing style is characterized by subtle irony and nuanced vocabulary.",
+            "ersterTeil": "Sein Schreibstil ist geprägt von feiner ",
+            "lösungswort": ["ironie"],
+            "zweiterTeil": " und nuancierter Wortwahl."
+        },
+        {
+            "fremdSatz": "The philosopher questioned the epistemological foundations of science.",
+            "ersterTeil": "Der Philosoph stellte die ",
+            "lösungswort": ["erkenntnistheoretischen"],
+            "zweiterTeil": " Grundlagen der Wissenschaft infrage."
+        }
+    ],
+
     "französischB1": [
         {
-            "fremdSatz": "Je prends le train tous les matins.",
-            "ersterTeil": "Ich nehme jeden Morgen den ",
-            "lösungswort": ["zug", "bahn"],
-            "zweiterTeil": "."
+            "fremdSatz": "Je vais à l'école en vélo.",
+            "ersterTeil": "Ich fahre mit dem ",
+            "lösungswort": ["fahrrad", "rad"],
+            "zweiterTeil": " zur Schule."
         },
         {
-            "fremdSatz": "Il fait très chaud en été.",
-            "ersterTeil": "Im Sommer ist es sehr ",
-            "lösungswort": ["heiß", "warm"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "Nous mangeons souvent au restaurant.",
-            "ersterTeil": "Wir essen oft im ",
-            "lösungswort": ["restaurant", "lokal"],
+            "fremdSatz": "Nous regardons la télévision le soir.",
+            "ersterTeil": "Wir schauen abends ",
+            "lösungswort": ["fernsehen"],
             "zweiterTeil": "."
         }
     ],
     "französischB2": [
         {
-            "fremdSatz": "Elle a surmonté de nombreuses difficultés.",
-            "ersterTeil": "Sie hat viele ",
-            "lösungswort": ["schwierigkeiten", "probleme", "hürden"],
-            "zweiterTeil": " überwunden."
+            "fremdSatz": "Il a expliqué son point de vue de manière claire et précise.",
+            "ersterTeil": "Er hat seinen Standpunkt klar und ",
+            "lösungswort": ["präzise", "genau"],
+            "zweiterTeil": " erklärt."
         },
         {
-            "fremdSatz": "Le débat portait sur des questions environnementales.",
-            "ersterTeil": "Die Debatte drehte sich um ",
-            "lösungswort": ["umweltfragen", "ökologische themen"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "Il a donné une explication détaillée de la situation.",
-            "ersterTeil": "Er gab eine ",
-            "lösungswort": ["detaillierte", "ausführliche"],
-            "zweiterTeil": " Erklärung der Situation."
+            "fremdSatz": "Le projet doit être terminé dans les délais impartis.",
+            "ersterTeil": "Das Projekt muss innerhalb der vorgegebenen ",
+            "lösungswort": ["frist", "zeit"],
+            "zweiterTeil": " abgeschlossen werden."
         }
     ],
+    "französischC1": [
+        {
+            "fremdSatz": "Le roman reflète les tensions sociales de l'époque.",
+            "ersterTeil": "Der Roman spiegelt die sozialen ",
+            "lösungswort": ["spannungen", "konflikte"],
+            "zweiterTeil": " der Epoche wider."
+        },
+        {
+            "fremdSatz": "Elle a développé une argumentation particulièrement cohérente.",
+            "ersterTeil": "Sie entwickelte eine besonders ",
+            "lösungswort": ["kohärente", "stringente"],
+            "zweiterTeil": " Argumentation."
+        }
+    ],
+    "französischC2": [
+        {
+            "fremdSatz": "Sa critique subtile met en lumière les contradictions du discours politique.",
+            "ersterTeil": "Seine subtile Kritik beleuchtet die ",
+            "lösungswort": ["widersprüche"],
+            "zweiterTeil": " des politischen Diskurses."
+        },
+        {
+            "fremdSatz": "La poésie de Baudelaire se caractérise par une grande densité symbolique.",
+            "ersterTeil": "Baudelaires Dichtung ist durch eine große symbolische ",
+            "lösungswort": ["dichte"],
+            "zweiterTeil": " gekennzeichnet."
+        }
+    ],
+
     "spanischB1": [
         {
-            "fremdSatz": "Voy al supermercado después del trabajo.",
-            "ersterTeil": "Ich gehe nach der Arbeit zum ",
-            "lösungswort": ["supermarkt"],
+            "fremdSatz": "Voy al cine con mis amigos.",
+            "ersterTeil": "Ich gehe mit meinen Freunden ins ",
+            "lösungswort": ["kino"],
             "zweiterTeil": "."
         },
         {
-            "fremdSatz": "Hace mucho viento hoy.",
-            "ersterTeil": "Heute ist es sehr ",
-            "lösungswort": ["windig", "stürmisch"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "Los niños beben leche por la mañana.",
-            "ersterTeil": "Die Kinder trinken morgens ",
-            "lösungswort": ["milch"],
+            "fremdSatz": "El perro juega en el jardín.",
+            "ersterTeil": "Der Hund spielt im ",
+            "lösungswort": ["garten"],
             "zweiterTeil": "."
         }
     ],
     "spanischB2": [
         {
-            "fremdSatz": "El gobierno anunció nuevas medidas económicas.",
-            "ersterTeil": "Die Regierung kündigte neue ",
-            "lösungswort": ["wirtschaftsmaßnahmen", "ökonomische maßnahmen"],
-            "zweiterTeil": " an."
+            "fremdSatz": "Necesitamos discutir las ventajas y desventajas de la propuesta.",
+            "ersterTeil": "Wir müssen die Vor- und ",
+            "lösungswort": ["nachteile"],
+            "zweiterTeil": " des Vorschlags diskutieren."
         },
         {
-            "fremdSatz": "La película trata sobre la identidad cultural.",
-            "ersterTeil": "Der Film handelt von der ",
-            "lösungswort": ["kulturellen identität"],
+            "fremdSatz": "El informe subraya la importancia de la cooperación internacional.",
+            "ersterTeil": "Der Bericht betont die Bedeutung der internationalen ",
+            "lösungswort": ["zusammenarbeit", "kooperation"],
             "zweiterTeil": "."
+        }
+    ],
+    "spanischC1": [
+        {
+            "fremdSatz": "La novela describe con detalle la transformación de la sociedad.",
+            "ersterTeil": "Der Roman beschreibt detailliert den ",
+            "lösungswort": ["wandel", "umbruch"],
+            "zweiterTeil": " der Gesellschaft."
         },
         {
-            "fremdSatz": "Necesitamos encontrar una solución sostenible.",
-            "ersterTeil": "Wir müssen eine ",
-            "lösungswort": ["nachhaltige", "dauerhafte"],
-            "zweiterTeil": " Lösung finden."
+            "fremdSatz": "Expresó sus ideas con una claridad sorprendente.",
+            "ersterTeil": "Er drückte seine Ideen mit erstaunlicher ",
+            "lösungswort": ["klarheit", "deutlichkeit"],
+            "zweiterTeil": " aus."
+        }
+    ],
+    "spanischC2": [
+        {
+            "fremdSatz": "El ensayo plantea cuestiones epistemológicas complejas.",
+            "ersterTeil": "Der Aufsatz wirft komplexe ",
+            "lösungswort": ["erkenntnistheoretische"],
+            "zweiterTeil": " Fragen auf."
+        },
+        {
+            "fremdSatz": "La obra se caracteriza por un lenguaje poético y altamente simbólico.",
+            "ersterTeil": "Das Werk ist durch eine poetische und stark ",
+            "lösungswort": ["symbolische"],
+            "zweiterTeil": " Sprache gekennzeichnet."
         }
     ]
 }
