@@ -12,6 +12,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// der Inhalt von data.json ist KI-Generiert
 fetch("./data.json")
     .then(response => response.json())
     .then(json => {
@@ -34,7 +35,7 @@ document.addEventListener("keydown", async function (event) {
         lösungswort = lösungswort.slice(0, -1)
         lösungswortAnzeige.textContent = lösungswort
     } else if (event.key === "Enter") {
-        if (lösungswort === data.aufgaben[aufgabenIndex].lösungswort) {
+        if (data.aufgaben[aufgabenIndex].lösungswort.includes(lösungswort)) {
             lösungswortAnzeige.style.color = "#0b7e0bff"
             await sleep(500)
             lösungswortAnzeige.style.color = ""

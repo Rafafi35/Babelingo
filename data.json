@@ -3,49 +3,49 @@
         {
             "fremdSatz": "This place is wonderful!",
             "ersterTeil": "Dieser Ort ist ",
-            "lösungswort": "wunderbar",
+            "lösungswort": ["wunderbar", "fantastisch", "herrlich", "großartig"],
             "zweiterTeil": "!"
         },
         {
             "fremdSatz": "This is a once-in-a-lifetime opportunity!",
             "ersterTeil": "Dies ist eine einmalige ",
-            "lösungswort": "Gelegenheit",
+            "lösungswort": ["Gelegenheit", "Chance", "Möglichkeit"],
             "zweiterTeil": "!"
         },
         {
             "fremdSatz": "I am feeling very tired today.",
             "ersterTeil": "Ich fühle mich heute sehr ",
-            "lösungswort": "müde",
+            "lösungswort": ["müde", "erschöpft", "kaputt"],
             "zweiterTeil": "."
         },
         {
             "fremdSatz": "She always speaks the truth.",
             "ersterTeil": "Sie sagt immer die ",
-            "lösungswort": "Wahrheit",
+            "lösungswort": ["Wahrheit", "Tatsache"],
             "zweiterTeil": "."
         },
         {
             "fremdSatz": "We need to hurry or we will be late.",
             "ersterTeil": "Wir müssen uns ",
-            "lösungswort": "beeilen",
+            "lösungswort": ["beeilen", "sputen"],
             "zweiterTeil": " oder wir kommen zu spät."
         },
         {
             "fremdSatz": "He is an excellent musician.",
             "ersterTeil": "Er ist ein hervorragender ",
-            "lösungswort": "Musiker",
+            "lösungswort": ["Musiker", "Instrumentalist", "Künstler"],
             "zweiterTeil": "."
         },
         {
             "fremdSatz": "I forgot my homework at home.",
-            "ersterTeil": "Ich habe meine Hausaufgaben zu ",
-            "lösungswort": "Hause",
+            "ersterTeil": "Ich habe meine Hausaufgaben ",
+            "lösungswort": ["zuhause", "daheim"],
             "zweiterTeil": " vergessen."
         },
         {
             "fremdSatz": "They are very friendly people.",
             "ersterTeil": "Sie sind sehr ",
-            "lösungswort": "freundliche",
+            "lösungswort": ["freundliche", "nette", "sympathische"],
             "zweiterTeil": " Menschen."
         },
         {
@@ -57,13 +57,13 @@
         {
             "fremdSatz": "I enjoy reading books in my free time.",
             "ersterTeil": "Ich lese in meiner Freizeit gerne ",
-            "lösungswort": "Bücher",
+            "lösungswort": ["Bücher", "Romane"],
             "zweiterTeil": "."
         },
         {
             "fremdSatz": "It is raining heavily outside.",
             "ersterTeil": "Draußen regnet es ",
-            "lösungswort": "stark",
+            "lösungswort": ["stark", "heftig"],
             "zweiterTeil": "."
         },
         {
