@@ -9,7 +9,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -19,18 +19,23 @@ p {
 }
 
 #lückentextDiv {
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #lückentextDiv p {
     flex: none;
-    white-space: nowrap;
 }
 
 #lückentextDiv p:nth-child(2) {
-    margin-left: 3%;
-    margin-right: 3%;
-    min-width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 200px;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightgray;
 }
 
