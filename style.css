@@ -7,8 +7,58 @@ body {
     
 }
 
-.container {
+#sprachenWahl {
     display: flex;
+    justify-content: space-evenly;
+}
+
+#sprachenWahl button {
+    font-size: 2em;
+    border: solid black 5px;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+#sprachenWahl button:hover {
+    border: solid lightblue 5px;
+}
+
+
+
+/* ----- Button Animation KI generiert ----- */
+
+.sprache {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sprache > button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sprache > button:not(:first-child) {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.sprache:hover > button:not(:first-child),
+.sprache:focus-within > button:not(:first-child) {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/* ----------------------------------------- */
+
+
+
+#aufgabenDiv {
+    display: none;
     align-items: center;
     flex-direction: column;
 }

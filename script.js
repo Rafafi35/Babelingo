@@ -2,24 +2,37 @@ const fremdTextAnzeige = document.getElementById("fremdText")
 const ersterTeilAnzeige = document.getElementById("ersterTeil")
 const zweiterTeilAnzeige = document.getElementById("zweiterTeil")
 const lösungswortAnzeige = document.getElementById("lösungswort")
+const aufgabenDiv = document.getElementById("aufgabenDiv")
+const hauptmenü = document.getElementById("hauptmenü")
 
 let data
 let lösungswort = ""
-let aufgabenIndex = 0
+let aufgabenIndex
+let erledigteAufgaben = []
 let versuch = 1
+let sprache = ""
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function spracheFestlegen(x) {
+    sprache = x
+    hauptmenü.style.display = "none"
+    aufgabenDiv.style.display = "flex"
+    if (data[sprache]) {
+        aufgabenIndex = Math.floor(Math.random() * data[sprache].length)
+        fremdTextAnzeige.textContent = data[sprache][aufgabenIndex].fremdSatz
+        ersterTeilAnzeige.textContent = data[sprache][aufgabenIndex].ersterTeil
+        zweiterTeilAnzeige.textContent = data[sprache][aufgabenIndex].zweiterTeil
+    }
+}
+
+// der Inhalt von data.json ist KI-Generiert
 fetch("./data.json")
     .then(response => response.json())
     .then(json => {
         data = json
-
-        fremdTextAnzeige.textContent = data.aufgaben[0].fremdSatz
-        ersterTeilAnzeige.textContent = data.aufgaben[0].ersterTeil
-        zweiterTeilAnzeige.textContent = data.aufgaben[0].zweiterTeil
     })
     .catch(err => console.error("Fehler beim Laden von JSON:", err))
 
@@ -33,8 +46,13 @@ document.addEventListener("keydown", async function (event) {
     } else if (event.key === "Backspace") {
         lösungswort = lösungswort.slice(0, -1)
         lösungswortAnzeige.textContent = lösungswort
+    } else if (event.key === "Escape") {
+        hauptmenü.style.display = ""
+        aufgabenDiv.style.display = "none"
+        erledigteAufgaben = []
     } else if (event.key === "Enter") {
-        if (lösungswort === data.aufgaben[aufgabenIndex].lösungswort) {
+        lösungswort = lösungswort.toLowerCase()
+        if (data[sprache][aufgabenIndex].lösungswort.includes(lösungswort)) {
             lösungswortAnzeige.style.color = "#0b7e0bff"
             await sleep(500)
             lösungswortAnzeige.style.color = ""
@@ -56,6 +74,10 @@ async function falsch() {
     if (versuch === 1) {
         versuch = 2
     } else if (versuch === 2) {
+        lösungswortAnzeige.textContent = data[sprache][aufgabenIndex].lösungswort[0]
+        lösungswortAnzeige.style.color = "darkviolet"
+        await sleep(1500)
+        lösungswortAnzeige.style.color = ""
         nächsteAufgabe()
         versuch = 1
     }
@@ -63,14 +85,20 @@ async function falsch() {
 
 function nächsteAufgabe() {
     if (!data) return
-    if (aufgabenIndex >= data.aufgaben.length - 1) {
-        aufgabenIndex = 0
+    erledigteAufgaben.push(aufgabenIndex)
+    if (erledigteAufgaben.length >= data[sprache].length) {
+        console.log("alle aufgaben gelöst")
+        hauptmenü.style.display = ""
+        aufgabenDiv.style.display = "none"
+        erledigteAufgaben = []
     } else {
-        aufgabenIndex++
+        while (erledigteAufgaben.includes(aufgabenIndex)) {
+            aufgabenIndex = Math.floor(Math.random() * data[sprache].length)
+        }
     }
     lösungswort = ""
-    fremdTextAnzeige.textContent = data.aufgaben[aufgabenIndex].fremdSatz
-    ersterTeilAnzeige.textContent = data.aufgaben[aufgabenIndex].ersterTeil
-    zweiterTeilAnzeige.textContent = data.aufgaben[aufgabenIndex].zweiterTeil
+    fremdTextAnzeige.textContent = data[sprache][aufgabenIndex].fremdSatz
+    ersterTeilAnzeige.textContent = data[sprache][aufgabenIndex].ersterTeil
+    zweiterTeilAnzeige.textContent = data[sprache][aufgabenIndex].zweiterTeil
     lösungswortAnzeige.textContent = lösungswort
 }

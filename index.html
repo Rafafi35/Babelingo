@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Hintergrund Animationen sind KI-Generiert -->
+    <!-- <link rel="stylesheet" href="hintergrund.css"> -->
 </head>
 
 <body>
-    <div class="container">
-        <p id="fremdText">This text is a placeholder</p>
+    <div id="aufgabenDiv">
+        <p id="fremdText">This is a placeholder</p>
 
         <div id="lückentextDiv">
             <p id="ersterTeil"></p>
@@ -20,7 +23,40 @@
 
     </div>
 
+    <div id="hauptmenü">
+        <p>Welche Sprache möchtest du lernen?</p>
+        <div id="sprachenWahl">
+            <div class="sprache">
+                <button>English</button>
+                <button onclick="spracheFestlegen('englischB1')">B1</button>
+                <button onclick="spracheFestlegen('englischB2')">B2</button>
+                <button onclick="spracheFestlegen('englischC1')">C1</button>
+                <button onclick="spracheFestlegen('englischC2')">C2</button>
+            </div>
 
+            <div class="sprache">
+                <button>Français</button>
+                <button onclick="spracheFestlegen('französischB1')">B1</button>
+                <button onclick="spracheFestlegen('französischB2')">B2</button>
+                <button onclick="spracheFestlegen('französischC1')">C1</button>
+                <button onclick="spracheFestlegen('französischC2')">C2</button>
+            </div>
+
+            <div class="sprache">
+                <button>Español</button>
+                <button onclick="spracheFestlegen('spanischB1')">B1</button>
+                <button onclick="spracheFestlegen('spanischB2')">B2</button>
+                <button onclick="spracheFestlegen('spanischC1')">C1</button>
+                <button onclick="spracheFestlegen('spanischC2')">C2</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
 
     <script src="script.js"></script>
 
