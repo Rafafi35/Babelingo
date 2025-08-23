@@ -9,7 +9,7 @@
         {
             "fremdSatz": "This is a once-in-a-lifetime opportunity!",
             "ersterTeil": "Dies ist eine einmalige ",
-            "lösungswort": ["Gelegenheit", "Chance", "Möglichkeit"],
+            "lösungswort": ["gelegenheit", "chance", "möglichkeit"],
             "zweiterTeil": "!"
         },
         {
@@ -21,7 +21,7 @@
         {
             "fremdSatz": "She always speaks the truth.",
             "ersterTeil": "Sie sagt immer die ",
-            "lösungswort": ["Wahrheit", "Tatsache"],
+            "lösungswort": ["wahrheit", "tatsache"],
             "zweiterTeil": "."
         },
         {
@@ -33,7 +33,7 @@
         {
             "fremdSatz": "He is an excellent musician.",
             "ersterTeil": "Er ist ein hervorragender ",
-            "lösungswort": ["Musiker", "Instrumentalist", "Künstler"],
+            "lösungswort": ["musiker", "instrumentalist", "künstler"],
             "zweiterTeil": "."
         },
         {
@@ -45,31 +45,31 @@
         {
             "fremdSatz": "They are very friendly people.",
             "ersterTeil": "Sie sind sehr ",
-            "lösungswort": ["freundliche", "nette", "sympathische"],
+            "lösungswort": ["freundliche", "nette", "sympathische", "liebenswerte"],
             "zweiterTeil": " Menschen."
         },
         {
             "fremdSatz": "Can you help me with this problem?",
             "ersterTeil": "Kannst du mir bei diesem ",
-            "lösungswort": "Problem",
+            "lösungswort": ["problem", "thema", "sachverhalt"],
             "zweiterTeil": " helfen?"
         },
         {
             "fremdSatz": "I enjoy reading books in my free time.",
             "ersterTeil": "Ich lese in meiner Freizeit gerne ",
-            "lösungswort": ["Bücher", "Romane"],
+            "lösungswort": ["bücher", "romane"],
             "zweiterTeil": "."
         },
         {
             "fremdSatz": "It is raining heavily outside.",
             "ersterTeil": "Draußen regnet es ",
-            "lösungswort": ["stark", "heftig"],
+            "lösungswort": ["stark", "heftig", "kräftig"],
             "zweiterTeil": "."
         },
         {
             "fremdSatz": "She bought a beautiful dress for the party.",
             "ersterTeil": "Sie hat ein wunderschönes ",
-            "lösungswort": "Kleid",
+            "lösungswort": ["kleid", "outfit"],
             "zweiterTeil": " für die Party gekauft."
         }
     ]

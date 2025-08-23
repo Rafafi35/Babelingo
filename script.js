@@ -5,7 +5,8 @@ const lösungswortAnzeige = document.getElementById("lösungswort")
 
 let data
 let lösungswort = ""
-let aufgabenIndex = 0
+let aufgabenIndex
+let erledigteAufgaben = []
 let versuch = 1
 
 function sleep(ms) {
@@ -18,9 +19,11 @@ fetch("./data.json")
     .then(json => {
         data = json
 
-        fremdTextAnzeige.textContent = data.aufgaben[0].fremdSatz
-        ersterTeilAnzeige.textContent = data.aufgaben[0].ersterTeil
-        zweiterTeilAnzeige.textContent = data.aufgaben[0].zweiterTeil
+        aufgabenIndex = Math.floor(Math.random() * data.aufgaben.length)
+        console.log(aufgabenIndex)
+        fremdTextAnzeige.textContent = data.aufgaben[aufgabenIndex].fremdSatz
+        ersterTeilAnzeige.textContent = data.aufgaben[aufgabenIndex].ersterTeil
+        zweiterTeilAnzeige.textContent = data.aufgaben[aufgabenIndex].zweiterTeil
     })
     .catch(err => console.error("Fehler beim Laden von JSON:", err))
 
@@ -35,6 +38,7 @@ document.addEventListener("keydown", async function (event) {
         lösungswort = lösungswort.slice(0, -1)
         lösungswortAnzeige.textContent = lösungswort
     } else if (event.key === "Enter") {
+        lösungswort = lösungswort.toLowerCase()
         if (data.aufgaben[aufgabenIndex].lösungswort.includes(lösungswort)) {
             lösungswortAnzeige.style.color = "#0b7e0bff"
             await sleep(500)
@@ -64,10 +68,13 @@ async function falsch() {
 
 function nächsteAufgabe() {
     if (!data) return
-    if (aufgabenIndex >= data.aufgaben.length - 1) {
-        aufgabenIndex = 0
+    erledigteAufgaben.push(aufgabenIndex)
+    if (erledigteAufgaben.length >= data.aufgaben.length) {
+        console.log("alle aufgaben gelöst")
     } else {
-        aufgabenIndex++
+        while (erledigteAufgaben.includes(aufgabenIndex)) {
+            aufgabenIndex = Math.floor(Math.random() * data.aufgaben.length)
+        }
     }
     lösungswort = ""
     fremdTextAnzeige.textContent = data.aufgaben[aufgabenIndex].fremdSatz
