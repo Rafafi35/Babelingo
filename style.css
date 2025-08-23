@@ -7,8 +7,23 @@ body {
     
 }
 
-.container {
+#sprachenWahl {
     display: flex;
+    justify-content: space-evenly;
+}
+
+#sprachenWahl button {
+    font-size: 2em;
+    border: solid black 7px;
+    padding: 10px;
+}
+
+#sprachenWahl button:hover {
+    border: solid lightblue 7px;
+}
+
+#aufgabenDiv {
+    display: none;
     align-items: center;
     flex-direction: column;
 }

@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- Hintergrund Animationen sind KI-Generiert -->
-    <link rel="stylesheet" href="hintergrund.css">
+    <!-- <link rel="stylesheet" href="hintergrund.css"> -->
 </head>
 
 <body>
-    <div class="container">
-        <p id="fremdText">This text is a placeholder</p>
+    <div id="aufgabenDiv">
+        <p id="fremdText">This is a placeholder</p>
 
         <div id="lückentextDiv">
             <p id="ersterTeil"></p>
@@ -21,6 +21,15 @@
             <p id="zweiterTeil"></p>
         </div>
 
+    </div>
+
+    <div id="hauptmenü">
+        <p>Welche Sprache möchtest du lernen?</p>
+        <div id="sprachenWahl">
+            <button onclick="spracheFestlegen('englisch')">English</button>
+            <button onclick="spracheFestlegen('französisch')">Français</button>
+            <button onclick="spracheFestlegen('spanisch')">Español</button>
+        </div>
     </div>
 
 

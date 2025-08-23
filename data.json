@@ -1,76 +1,62 @@
 {
-    "aufgaben": [
+    "englisch": [
         {
-            "fremdSatz": "This place is wonderful!",
-            "ersterTeil": "Dieser Ort ist ",
-            "lösungswort": ["wunderbar", "fantastisch", "herrlich", "großartig"],
-            "zweiterTeil": "!"
+            "fremdSatz": "The train is arriving at platform five.",
+            "ersterTeil": "Der Zug fährt auf Gleis ",
+            "lösungswort": ["fünf", "5"],
+            "zweiterTeil": " ein."
         },
         {
-            "fremdSatz": "This is a once-in-a-lifetime opportunity!",
-            "ersterTeil": "Dies ist eine einmalige ",
-            "lösungswort": ["gelegenheit", "chance", "möglichkeit"],
-            "zweiterTeil": "!"
+            "fremdSatz": "She loves hiking in the mountains.",
+            "ersterTeil": "Sie liebt es, in den ",
+            "lösungswort": ["bergen", "alpen", "gebirgen"],
+            "zweiterTeil": " zu wandern."
         },
         {
-            "fremdSatz": "I am feeling very tired today.",
-            "ersterTeil": "Ich fühle mich heute sehr ",
-            "lösungswort": ["müde", "erschöpft", "kaputt"],
+            "fremdSatz": "My phone battery is almost empty.",
+            "ersterTeil": "Mein Handyakku ist fast ",
+            "lösungswort": ["leer", "entladen"],
             "zweiterTeil": "."
+        }
+    ],
+    "französisch": [
+        {
+            "fremdSatz": "J'adore le fromage français.",
+            "ersterTeil": "Ich liebe ",
+            "lösungswort": ["käse", "fromage"],
+            "zweiterTeil": " aus Frankreich."
         },
         {
-            "fremdSatz": "She always speaks the truth.",
-            "ersterTeil": "Sie sagt immer die ",
-            "lösungswort": ["wahrheit", "tatsache"],
+            "fremdSatz": "Il pleut depuis trois jours.",
+            "ersterTeil": "Es regnet seit ",
+            "lösungswort": ["drei", "3"],
+            "zweiterTeil": " Tagen."
+        },
+        {
+            "fremdSatz": "Nous allons au marché demain matin.",
+            "ersterTeil": "Wir gehen morgen früh auf den ",
+            "lösungswort": ["markt"],
             "zweiterTeil": "."
+        }
+    ],
+    "spanisch": [
+        {
+            "fremdSatz": "El sol brilla en el cielo.",
+            "ersterTeil": "Die ",
+            "lösungswort": ["sonne"],
+            "zweiterTeil": " scheint am Himmel."
         },
         {
-            "fremdSatz": "We need to hurry or we will be late.",
-            "ersterTeil": "Wir müssen uns ",
-            "lösungswort": ["beeilen", "sputen"],
-            "zweiterTeil": " oder wir kommen zu spät."
+            "fremdSatz": "Quiero aprender a tocar la guitarra.",
+            "ersterTeil": "Ich möchte lernen, ",
+            "lösungswort": ["gitarre"],
+            "zweiterTeil": " zu spielen."
         },
         {
-            "fremdSatz": "He is an excellent musician.",
-            "ersterTeil": "Er ist ein hervorragender ",
-            "lösungswort": ["musiker", "instrumentalist", "künstler"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "I forgot my homework at home.",
-            "ersterTeil": "Ich habe meine Hausaufgaben ",
-            "lösungswort": ["zuhause", "daheim"],
-            "zweiterTeil": " vergessen."
-        },
-        {
-            "fremdSatz": "They are very friendly people.",
-            "ersterTeil": "Sie sind sehr ",
-            "lösungswort": ["freundliche", "nette", "sympathische", "liebenswerte"],
-            "zweiterTeil": " Menschen."
-        },
-        {
-            "fremdSatz": "Can you help me with this problem?",
-            "ersterTeil": "Kannst du mir bei diesem ",
-            "lösungswort": ["problem", "thema", "sachverhalt"],
-            "zweiterTeil": " helfen?"
-        },
-        {
-            "fremdSatz": "I enjoy reading books in my free time.",
-            "ersterTeil": "Ich lese in meiner Freizeit gerne ",
-            "lösungswort": ["bücher", "romane"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "It is raining heavily outside.",
-            "ersterTeil": "Draußen regnet es ",
-            "lösungswort": ["stark", "heftig", "kräftig"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "She bought a beautiful dress for the party.",
-            "ersterTeil": "Sie hat ein wunderschönes ",
-            "lösungswort": ["kleid", "outfit"],
-            "zweiterTeil": " für die Party gekauft."
+            "fremdSatz": "El autobús llega tarde otra vez.",
+            "ersterTeil": "Der ",
+            "lösungswort": ["bus", "autobus"],
+            "zweiterTeil": " kommt schon wieder zu spät."
         }
     ]
 }
