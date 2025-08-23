@@ -1,62 +1,122 @@
 {
-    "englisch": [
+    "englischB1": [
         {
-            "fremdSatz": "The train is arriving at platform five.",
-            "ersterTeil": "Der Zug fährt auf Gleis ",
-            "lösungswort": ["fünf", "5"],
-            "zweiterTeil": " ein."
+            "fremdSatz": "I usually go shopping on Saturdays.",
+            "ersterTeil": "Ich gehe normalerweise am ",
+            "lösungswort": ["samstag", "wochenende"],
+            "zweiterTeil": " einkaufen."
         },
         {
-            "fremdSatz": "She loves hiking in the mountains.",
-            "ersterTeil": "Sie liebt es, in den ",
-            "lösungswort": ["bergen", "alpen", "gebirgen"],
-            "zweiterTeil": " zu wandern."
+            "fremdSatz": "She is waiting at the bus stop.",
+            "ersterTeil": "Sie wartet an der ",
+            "lösungswort": ["haltestelle", "bushaltestelle"],
+            "zweiterTeil": "."
         },
         {
-            "fremdSatz": "My phone battery is almost empty.",
-            "ersterTeil": "Mein Handyakku ist fast ",
-            "lösungswort": ["leer", "entladen"],
+            "fremdSatz": "The weather is very cold today.",
+            "ersterTeil": "Das Wetter ist heute sehr ",
+            "lösungswort": ["kalt", "frostig"],
             "zweiterTeil": "."
         }
     ],
-    "französisch": [
+    "englischB2": [
         {
-            "fremdSatz": "J'adore le fromage français.",
-            "ersterTeil": "Ich liebe ",
-            "lösungswort": ["käse", "fromage"],
-            "zweiterTeil": " aus Frankreich."
+            "fremdSatz": "The meeting was postponed due to unforeseen circumstances.",
+            "ersterTeil": "Die Besprechung wurde aufgrund ",
+            "lösungswort": ["unvorhergesehener", "unerwarteter"],
+            "zweiterTeil": " Umstände verschoben."
         },
         {
-            "fremdSatz": "Il pleut depuis trois jours.",
-            "ersterTeil": "Es regnet seit ",
-            "lösungswort": ["drei", "3"],
-            "zweiterTeil": " Tagen."
+            "fremdSatz": "She expressed her opinion convincingly.",
+            "ersterTeil": "Sie hat ihre Meinung sehr ",
+            "lösungswort": ["überzeugend", "schlüssig"],
+            "zweiterTeil": " geäußert."
         },
         {
-            "fremdSatz": "Nous allons au marché demain matin.",
-            "ersterTeil": "Wir gehen morgen früh auf den ",
-            "lösungswort": ["markt"],
+            "fremdSatz": "The novel deals with complex social issues.",
+            "ersterTeil": "Der Roman behandelt komplexe ",
+            "lösungswort": ["gesellschaftliche", "soziale"],
+            "zweiterTeil": " Themen."
+        }
+    ],
+    "französischB1": [
+        {
+            "fremdSatz": "Je prends le train tous les matins.",
+            "ersterTeil": "Ich nehme jeden Morgen den ",
+            "lösungswort": ["zug", "bahn"],
+            "zweiterTeil": "."
+        },
+        {
+            "fremdSatz": "Il fait très chaud en été.",
+            "ersterTeil": "Im Sommer ist es sehr ",
+            "lösungswort": ["heiß", "warm"],
+            "zweiterTeil": "."
+        },
+        {
+            "fremdSatz": "Nous mangeons souvent au restaurant.",
+            "ersterTeil": "Wir essen oft im ",
+            "lösungswort": ["restaurant", "lokal"],
             "zweiterTeil": "."
         }
     ],
-    "spanisch": [
+    "französischB2": [
         {
-            "fremdSatz": "El sol brilla en el cielo.",
-            "ersterTeil": "Die ",
-            "lösungswort": ["sonne"],
-            "zweiterTeil": " scheint am Himmel."
+            "fremdSatz": "Elle a surmonté de nombreuses difficultés.",
+            "ersterTeil": "Sie hat viele ",
+            "lösungswort": ["schwierigkeiten", "probleme", "hürden"],
+            "zweiterTeil": " überwunden."
         },
         {
-            "fremdSatz": "Quiero aprender a tocar la guitarra.",
-            "ersterTeil": "Ich möchte lernen, ",
-            "lösungswort": ["gitarre"],
-            "zweiterTeil": " zu spielen."
+            "fremdSatz": "Le débat portait sur des questions environnementales.",
+            "ersterTeil": "Die Debatte drehte sich um ",
+            "lösungswort": ["umweltfragen", "ökologische themen"],
+            "zweiterTeil": "."
         },
         {
-            "fremdSatz": "El autobús llega tarde otra vez.",
-            "ersterTeil": "Der ",
-            "lösungswort": ["bus", "autobus"],
-            "zweiterTeil": " kommt schon wieder zu spät."
+            "fremdSatz": "Il a donné une explication détaillée de la situation.",
+            "ersterTeil": "Er gab eine ",
+            "lösungswort": ["detaillierte", "ausführliche"],
+            "zweiterTeil": " Erklärung der Situation."
+        }
+    ],
+    "spanischB1": [
+        {
+            "fremdSatz": "Voy al supermercado después del trabajo.",
+            "ersterTeil": "Ich gehe nach der Arbeit zum ",
+            "lösungswort": ["supermarkt"],
+            "zweiterTeil": "."
+        },
+        {
+            "fremdSatz": "Hace mucho viento hoy.",
+            "ersterTeil": "Heute ist es sehr ",
+            "lösungswort": ["windig", "stürmisch"],
+            "zweiterTeil": "."
+        },
+        {
+            "fremdSatz": "Los niños beben leche por la mañana.",
+            "ersterTeil": "Die Kinder trinken morgens ",
+            "lösungswort": ["milch"],
+            "zweiterTeil": "."
+        }
+    ],
+    "spanischB2": [
+        {
+            "fremdSatz": "El gobierno anunció nuevas medidas económicas.",
+            "ersterTeil": "Die Regierung kündigte neue ",
+            "lösungswort": ["wirtschaftsmaßnahmen", "ökonomische maßnahmen"],
+            "zweiterTeil": " an."
+        },
+        {
+            "fremdSatz": "La película trata sobre la identidad cultural.",
+            "ersterTeil": "Der Film handelt von der ",
+            "lösungswort": ["kulturellen identität"],
+            "zweiterTeil": "."
+        },
+        {
+            "fremdSatz": "Necesitamos encontrar una solución sostenible.",
+            "ersterTeil": "Wir müssen eine ",
+            "lösungswort": ["nachhaltige", "dauerhafte"],
+            "zweiterTeil": " Lösung finden."
         }
     ]
 }

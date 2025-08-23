@@ -49,6 +49,7 @@ document.addEventListener("keydown", async function (event) {
     } else if (event.key === "Escape") {
         hauptmenü.style.display = ""
         aufgabenDiv.style.display = "none"
+        erledigteAufgaben = []
     } else if (event.key === "Enter") {
         lösungswort = lösungswort.toLowerCase()
         if (data[sprache][aufgabenIndex].lösungswort.includes(lösungswort)) {
@@ -85,6 +86,7 @@ function nächsteAufgabe() {
         console.log("alle aufgaben gelöst")
         hauptmenü.style.display = ""
         aufgabenDiv.style.display = "none"
+        erledigteAufgaben = []
     } else {
         while (erledigteAufgaben.includes(aufgabenIndex)) {
             aufgabenIndex = Math.floor(Math.random() * data[sprache].length)

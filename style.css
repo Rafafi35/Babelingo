@@ -14,12 +14,18 @@ body {
 
 #sprachenWahl button {
     font-size: 2em;
-    border: solid black 7px;
+    border: solid black 5px;
     padding: 10px;
+    margin-bottom: 10%;
 }
 
 #sprachenWahl button:hover {
-    border: solid lightblue 7px;
+    border: solid lightblue 5px;
+}
+
+.sprache {
+    display: flex;
+    flex-direction: column;
 }
 
 #aufgabenDiv {
