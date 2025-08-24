@@ -56,6 +56,7 @@ document.addEventListener("keydown", async function (event) {
             lösungswortAnzeige.style.color = "#0b7e0bff"
             await sleep(500)
             lösungswortAnzeige.style.color = ""
+            versuch = 1
             nächsteAufgabe()
         } else {
             await falsch()
