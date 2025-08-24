@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 50vw;
     flex-direction: column;
-    
+    color: white;
 }
 
 #sprachenWahl {
@@ -14,7 +14,7 @@ body {
 
 #sprachenWahl button {
     font-size: 2em;
-    border: solid black 5px;
+    border: solid gray 5px;
     padding: 10px;
     margin-bottom: 10%;
 }
