@@ -21,6 +21,7 @@ body {
 
 #sprachenWahl button:hover {
     border: solid lightblue 5px;
+    scale: 1.1;
 }
 
 
@@ -37,6 +38,7 @@ body {
 .sprache>button {
     width: 100%;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .sprache>button:not(:first-child) {
@@ -61,6 +63,7 @@ body {
     display: none;
     align-items: center;
     flex-direction: column;
+    margin: 10px;
 }
 
 p {
@@ -68,7 +71,15 @@ p {
     font-size: clamp(1.2em, 5vw, 3em);
 }
 
+#fremdText {
+    margin-bottom: 100px;
+}
+
 #lückentextDiv {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    word-break: break-word;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -76,17 +87,16 @@ p {
 
 #lückentextDiv p {
     flex: none;
+    margin: 2px;
 }
 
 #lückentextDiv p:nth-child(2) {
-    margin-left: 20px;
-    margin-right: 20px;
     min-width: 200px;
     height: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    background-color: white;
     color: black;
 
 }
