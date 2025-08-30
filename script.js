@@ -4,6 +4,7 @@ const zweiterTeilAnzeige = document.getElementById("zweiterTeil")
 const lösungswortAnzeige = document.getElementById("lösungswort")
 const aufgabenDiv = document.getElementById("aufgabenDiv")
 const hauptmenü = document.getElementById("hauptmenü")
+const customMenü = document.getElementById("customMenü")
 
 let data
 let lösungswort = ""
@@ -30,6 +31,11 @@ function spracheFestlegen(x) {
         ersterTeilAnzeige.textContent = data[sprache][aufgabenIndex].ersterTeil
         zweiterTeilAnzeige.textContent = data[sprache][aufgabenIndex].zweiterTeil
     }
+}
+
+function customMenüAufrufen() {
+    hauptmenü.style.display = "none"
+    customMenü.style.display = "flex"
 }
 
 document.addEventListener("keydown", async function handleKeydown(event) {
@@ -68,7 +74,7 @@ document.addEventListener("keydown", async function handleKeydown(event) {
             }, ms);
         });
     }
-    
+
     async function falsch() {
         lösungswortAnzeige.style.color = "red"
         lösungswortAnzeige.classList.add("falsch")

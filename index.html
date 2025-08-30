@@ -12,17 +12,6 @@
 </head>
 
 <body>
-    <div id="aufgabenDiv">
-        <p id="fremdText">This is a placeholder</p>
-
-        <div id="lückentextDiv">
-            <p id="ersterTeil"></p>
-            <p id="lösungswort"></p>
-            <p id="zweiterTeil"></p>
-        </div>
-
-    </div>
-
     <div id="hauptmenü">
         <p>Welche Sprache möchtest du lernen?</p>
         <div id="sprachenWahl">
@@ -49,7 +38,27 @@
                 <button onclick="spracheFestlegen('spanischC1')">C1</button>
                 <button onclick="spracheFestlegen('spanischC2')">C2</button>
             </div>
+
+            <div class="sprache">
+                <button onclick="customMenüAufrufen()">Custom</button>
+            </div>
+
         </div>
+    </div>
+
+    <div id="aufgabenDiv">
+        <p id="fremdText">This is a placeholder</p>
+
+        <div id="lückentextDiv">
+            <p id="ersterTeil"></p>
+            <p id="lösungswort"></p>
+            <p id="zweiterTeil"></p>
+        </div>
+
+    </div>
+
+    <div id="customMenü">
+        <button>+</button>
     </div>
 
 

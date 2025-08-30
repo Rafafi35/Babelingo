@@ -66,6 +66,10 @@ body {
     margin: 10px;
 }
 
+#customMenü {
+    display: none;
+}
+
 p {
     text-align: center;
     font-size: clamp(1.2em, 5vw, 3em);
