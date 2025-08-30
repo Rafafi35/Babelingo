@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vw;
+    min-height: 100vh;
     flex-direction: column;
     color: white;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 #sprachenWahl button {
-    font-size: 2em;
+    font-size: clamp(1em, 5vw, 2em);
     border: solid gray 5px;
     padding: 10px;
     margin-bottom: 10%;
@@ -34,20 +34,20 @@ body {
     align-items: center;
 }
 
-.sprache > button {
+.sprache>button {
     width: 100%;
     box-sizing: border-box;
 }
 
-.sprache > button:not(:first-child) {
+.sprache>button:not(:first-child) {
     opacity: 0;
     transform: translateY(-20px);
     pointer-events: none;
     transition: opacity 0.3s, transform 0.3s;
 }
 
-.sprache:hover > button:not(:first-child),
-.sprache:focus-within > button:not(:first-child) {
+.sprache:hover>button:not(:first-child),
+.sprache:focus-within>button:not(:first-child) {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
@@ -65,7 +65,7 @@ body {
 
 p {
     text-align: center;
-    font-size: 3em;
+    font-size: clamp(1.2em, 5vw, 3em);
 }
 
 #lückentextDiv {
@@ -87,6 +87,23 @@ p {
     justify-content: center;
     align-items: center;
     background-color: lightgray;
+    color: black;
+
+}
+
+@media (max-width: 600px) {
+    .sprache {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    #lückentextDiv {
+        flex-direction: column;
+    }
+
+    #lückentextDiv p:nth-child(2) {
+        margin: 10px 0;
+    }
 }
 
 @keyframes falsch {
