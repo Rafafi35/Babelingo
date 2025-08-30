@@ -12,9 +12,13 @@ let erledigteAufgaben = []
 let versuch = 1
 let sprache = ""
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
+// der Inhalt von data.json ist KI-Generiert
+fetch("./data.json")
+    .then(response => response.json())
+    .then(json => {
+        data = json
+    })
+    .catch(err => console.error("Fehler beim Laden von JSON:", err))
 
 function spracheFestlegen(x) {
     sprache = x
@@ -28,15 +32,7 @@ function spracheFestlegen(x) {
     }
 }
 
-// der Inhalt von data.json ist KI-Generiert
-fetch("./data.json")
-    .then(response => response.json())
-    .then(json => {
-        data = json
-    })
-    .catch(err => console.error("Fehler beim Laden von JSON:", err))
-
-document.addEventListener("keydown", async function (event) {
+document.addEventListener("keydown", async function handleKeydown(event) {
     if (!data) return
     if (event.key.length === 1) {
         if (lösungswort.length < 25) {
@@ -62,27 +58,37 @@ document.addEventListener("keydown", async function (event) {
             await falsch()
         }
     }
-})
 
-async function falsch() {
-    lösungswortAnzeige.style.color = "red"
-    lösungswortAnzeige.classList.add("falsch")
-    await sleep(750)
-    lösungswortAnzeige.style.color = ""
-    lösungswortAnzeige.classList.remove("falsch")
-    lösungswort = ""
-    lösungswortAnzeige.textContent = lösungswort
-    if (versuch === 1) {
-        versuch = 2
-    } else if (versuch === 2) {
-        lösungswortAnzeige.textContent = data[sprache][aufgabenIndex].lösungswort[0]
-        lösungswortAnzeige.style.color = "darkviolet"
-        await sleep(1500)
-        lösungswortAnzeige.style.color = ""
-        nächsteAufgabe()
-        versuch = 1
+        function sleep(ms) {
+        document.removeEventListener("keydown", handleKeydown);
+        return new Promise(resolve => {
+            setTimeout(() => {
+                document.addEventListener("keydown", handleKeydown);
+                resolve();
+            }, ms);
+        });
     }
-}
+    
+    async function falsch() {
+        lösungswortAnzeige.style.color = "red"
+        lösungswortAnzeige.classList.add("falsch")
+        await sleep(750)
+        lösungswortAnzeige.style.color = ""
+        lösungswortAnzeige.classList.remove("falsch")
+        lösungswort = ""
+        lösungswortAnzeige.textContent = lösungswort
+        if (versuch === 1) {
+            versuch = 2
+        } else if (versuch === 2) {
+            lösungswortAnzeige.textContent = data[sprache][aufgabenIndex].lösungswort[0]
+            lösungswortAnzeige.style.color = "darkviolet"
+            await sleep(1500)
+            lösungswortAnzeige.style.color = ""
+            nächsteAufgabe()
+            versuch = 1
+        }
+    }
+})
 
 function nächsteAufgabe() {
     if (!data) return
