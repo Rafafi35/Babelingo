@@ -11,7 +11,8 @@ let lösungswort = ""
 let aufgabenIndex
 let erledigteAufgaben = []
 let versuch = 1
-let sprache = ""
+let lernsetName = ""
+let customData
 
 // der Inhalt von data.json ist KI-Generiert
 fetch("./data.json")
@@ -24,18 +25,24 @@ fetch("./data.json")
 fetch("/api/lernsets")
     .then(res => res.json())
     .then(rows => {
-        
+        customData = rows
+        Object.keys(rows).forEach(lernsetName => {
+            if (!data[lernsetName]) {
+                data[lernsetName] = rows[lernsetName];
+            }
+        })
     })
+    .catch(err => err)
 
-function spracheFestlegen(x) {
-    sprache = x
+function lernsetFestlegen(x) {
+    lernsetName = x
     hauptmenü.style.display = "none"
     aufgabenDiv.style.display = "flex"
-    if (data[sprache]) {
-        aufgabenIndex = Math.floor(Math.random() * data[sprache].length)
-        fremdTextAnzeige.textContent = data[sprache][aufgabenIndex].fremdSatz
-        ersterTeilAnzeige.textContent = data[sprache][aufgabenIndex].ersterTeil
-        zweiterTeilAnzeige.textContent = data[sprache][aufgabenIndex].zweiterTeil
+    if (data[lernsetName]) {
+        aufgabenIndex = Math.floor(Math.random() * data[lernsetName].length)
+        fremdTextAnzeige.textContent = data[lernsetName][aufgabenIndex].fremdSatz
+        ersterTeilAnzeige.textContent = data[lernsetName][aufgabenIndex].ersterTeil
+        zweiterTeilAnzeige.textContent = data[lernsetName][aufgabenIndex].zweiterTeil
     }
 }
 
@@ -60,7 +67,7 @@ document.addEventListener("keydown", async function handleKeydown(event) {
         erledigteAufgaben = []
     } else if (event.key === "Enter") {
         lösungswort = lösungswort.toLowerCase()
-        if (data[sprache][aufgabenIndex].lösungswort.includes(lösungswort)) {
+        if (data[lernsetName][aufgabenIndex].lösungswort.includes(lösungswort)) {
             lösungswortAnzeige.style.color = "#0b7e0bff"
             await sleep(500)
             lösungswortAnzeige.style.color = ""
@@ -72,13 +79,13 @@ document.addEventListener("keydown", async function handleKeydown(event) {
     }
 
     function sleep(ms) {
-        document.removeEventListener("keydown", handleKeydown);
+        document.removeEventListener("keydown", handleKeydown)
         return new Promise(resolve => {
             setTimeout(() => {
-                document.addEventListener("keydown", handleKeydown);
-                resolve();
-            }, ms);
-        });
+                document.addEventListener("keydown", handleKeydown)
+                resolve()
+            }, ms)
+        })
     }
 
     async function falsch() {
@@ -92,7 +99,7 @@ document.addEventListener("keydown", async function handleKeydown(event) {
         if (versuch === 1) {
             versuch = 2
         } else if (versuch === 2) {
-            lösungswortAnzeige.textContent = data[sprache][aufgabenIndex].lösungswort[0]
+            lösungswortAnzeige.textContent = data[lernsetName][aufgabenIndex].lösungswort[0]
             lösungswortAnzeige.style.color = "darkviolet"
             await sleep(1500)
             lösungswortAnzeige.style.color = ""
@@ -105,19 +112,19 @@ document.addEventListener("keydown", async function handleKeydown(event) {
 function nächsteAufgabe() {
     if (!data) return
     erledigteAufgaben.push(aufgabenIndex)
-    if (erledigteAufgaben.length >= data[sprache].length) {
+    if (erledigteAufgaben.length >= data[lernsetName].length) {
         console.log("alle aufgaben gelöst")
         hauptmenü.style.display = ""
         aufgabenDiv.style.display = "none"
         erledigteAufgaben = []
     } else {
         while (erledigteAufgaben.includes(aufgabenIndex)) {
-            aufgabenIndex = Math.floor(Math.random() * data[sprache].length)
+            aufgabenIndex = Math.floor(Math.random() * data[lernsetName].length)
         }
     }
     lösungswort = ""
-    fremdTextAnzeige.textContent = data[sprache][aufgabenIndex].fremdSatz
-    ersterTeilAnzeige.textContent = data[sprache][aufgabenIndex].ersterTeil
-    zweiterTeilAnzeige.textContent = data[sprache][aufgabenIndex].zweiterTeil
+    fremdTextAnzeige.textContent = data[lernsetName][aufgabenIndex].fremdSatz
+    ersterTeilAnzeige.textContent = data[lernsetName][aufgabenIndex].ersterTeil
+    zweiterTeilAnzeige.textContent = data[lernsetName][aufgabenIndex].zweiterTeil
     lösungswortAnzeige.textContent = lösungswort
 }
