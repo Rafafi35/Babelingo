@@ -21,6 +21,12 @@ fetch("./data.json")
     })
     .catch(err => console.error("Fehler beim Laden von JSON:", err))
 
+fetch("/api/lernsets")
+    .then(res => res.json())
+    .then(rows => {
+        
+    })
+
 function spracheFestlegen(x) {
     sprache = x
     hauptmenü.style.display = "none"
@@ -65,7 +71,7 @@ document.addEventListener("keydown", async function handleKeydown(event) {
         }
     }
 
-        function sleep(ms) {
+    function sleep(ms) {
         document.removeEventListener("keydown", handleKeydown);
         return new Promise(resolve => {
             setTimeout(() => {
