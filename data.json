@@ -1,172 +1,147 @@
 {
     "englischB1": [
-        {
-            "fremdSatz": "I often take the bus to school.",
-            "ersterTeil": "Ich fahre oft mit dem ",
-            "lösungswort": ["bus"],
-            "zweiterTeil": " zur Schule."
-        },
-        {
-            "fremdSatz": "My favorite food is pizza.",
-            "ersterTeil": "Mein Lieblingsessen ist ",
-            "lösungswort": ["pizza"],
-            "zweiterTeil": "."
-        }
+        {"fremdSatz":"I often take the bus to school.","ersterTeil":"Ich fahre oft mit dem ","lösungswort":["bus"],"zweiterTeil":" zur Schule."},
+        {"fremdSatz":"My favorite food is pizza.","ersterTeil":"Mein Lieblingsessen ist ","lösungswort":["pizza"],"zweiterTeil":"."},
+        {"fremdSatz":"She reads a book every evening.","ersterTeil":"Sie liest jeden Abend ein ","lösungswort":["buch"],"zweiterTeil":"."},
+        {"fremdSatz":"We usually go shopping on Saturdays.","ersterTeil":"Wir gehen normalerweise samstags ","lösungswort":["einkaufen","shoppen"],"zweiterTeil":"."},
+        {"fremdSatz":"He likes to play football after school.","ersterTeil":"Er spielt nach der Schule gern ","lösungswort":["fußball","soccer"],"zweiterTeil":"."},
+        {"fremdSatz":"I drink tea every morning.","ersterTeil":"Ich trinke jeden Morgen ","lösungswort":["tee"],"zweiterTeil":"."},
+        {"fremdSatz":"They live in a small town near the mountains.","ersterTeil":"Sie wohnen in einer kleinen ","lösungswort":["stadt"],"zweiterTeil":" in der Nähe der Berge."},
+        {"fremdSatz":"She often goes for a walk in the park.","ersterTeil":"Sie geht oft im ","lösungswort":["park"],"zweiterTeil":" spazieren."},
+        {"fremdSatz":"I have a cat and a dog.","ersterTeil":"Ich habe eine ","lösungswort":["katze","hund"],"zweiterTeil":"."},
+        {"fremdSatz":"We watch movies on Friday nights.","ersterTeil":"Wir schauen freitagabends ","lösungswort":["filme","movies"],"zweiterTeil":"."},
+        {"fremdSatz":"He studies English every day.","ersterTeil":"Er lernt jeden Tag ","lösungswort":["englisch"],"zweiterTeil":"."}
     ],
     "englischB2": [
-        {
-            "fremdSatz": "He gave a convincing argument during the discussion.",
-            "ersterTeil": "Er brachte in der Diskussion ein ",
-            "lösungswort": ["überzeugendes", "schlüssiges"],
-            "zweiterTeil": " Argument."
-        },
-        {
-            "fremdSatz": "We need to consider the consequences of our actions.",
-            "ersterTeil": "Wir müssen die ",
-            "lösungswort": ["folgen", "konsequenzen"],
-            "zweiterTeil": " unseres Handelns bedenken."
-        }
+        {"fremdSatz":"He gave a convincing argument during the discussion.","ersterTeil":"Er brachte in der Diskussion ein ","lösungswort":["überzeugendes","schlüssiges"],"zweiterTeil":" Argument."},
+        {"fremdSatz":"We need to consider the consequences of our actions.","ersterTeil":"Wir müssen die ","lösungswort":["folgen","konsequenzen"],"zweiterTeil":" unseres Handelns bedenken."},
+        {"fremdSatz":"The meeting addressed several important topics.","ersterTeil":"Die Sitzung behandelte mehrere wichtige ","lösungswort":["themen","punkte"],"zweiterTeil":"."},
+        {"fremdSatz":"She managed the project efficiently.","ersterTeil":"Sie leitete das Projekt ","lösungswort":["effizient","wirkungsvoll"],"zweiterTeil":"."},
+        {"fremdSatz":"It is crucial to evaluate the risks carefully.","ersterTeil":"Es ist entscheidend, die ","lösungswort":["risiken","gefahren"],"zweiterTeil":" sorgfältig zu bewerten."},
+        {"fremdSatz":"They conducted a thorough investigation.","ersterTeil":"Sie führten eine gründliche ","lösungswort":["untersuchung","analyse"],"zweiterTeil":" durch."},
+        {"fremdSatz":"We should focus on long-term goals.","ersterTeil":"Wir sollten uns auf ","lösungswort":["langfristige","dauerhafte"],"zweiterTeil":" Ziele konzentrieren."},
+        {"fremdSatz":"His explanation clarified many doubts.","ersterTeil":"Seine Erklärung ","lösungswort":["klärte","erhellte"],"zweiterTeil":" viele Zweifel."},
+        {"fremdSatz":"The policy requires careful implementation.","ersterTeil":"Die Richtlinie erfordert eine sorgfältige ","lösungswort":["umsetzung","durchführung"],"zweiterTeil":"."},
+        {"fremdSatz":"She expressed her opinion during the debate.","ersterTeil":"Sie äußerte ihre Meinung während der ","lösungswort":["diskussion","debatte"],"zweiterTeil":"."}
     ],
     "englischC1": [
-        {
-            "fremdSatz": "The report provides a comprehensive analysis of the issue.",
-            "ersterTeil": "Der Bericht liefert eine ",
-            "lösungswort": ["umfassende", "gründliche"],
-            "zweiterTeil": " Analyse des Problems."
-        },
-        {
-            "fremdSatz": "She managed to articulate her thoughts with remarkable clarity.",
-            "ersterTeil": "Sie konnte ihre Gedanken mit bemerkenswerter ",
-            "lösungswort": ["klarheit", "deutlichkeit"],
-            "zweiterTeil": " darlegen."
-        }
+        {"fremdSatz":"The report provides a comprehensive analysis of the issue.","ersterTeil":"Der Bericht liefert eine ","lösungswort":["umfassende","gründliche"],"zweiterTeil":" Analyse des Problems."},
+        {"fremdSatz":"She managed to articulate her thoughts with remarkable clarity.","ersterTeil":"Sie konnte ihre Gedanken mit bemerkenswerter ","lösungswort":["klarheit","deutlichkeit"],"zweiterTeil":" darlegen."},
+        {"fremdSatz":"The research highlights significant trends in society.","ersterTeil":"Die Forschung hebt bedeutende ","lösungswort":["trends","entwicklungen"],"zweiterTeil":" in der Gesellschaft hervor."},
+        {"fremdSatz":"He proposed a novel approach to solving the issue.","ersterTeil":"Er schlug einen neuen ","lösungswort":["ansatz","weg"],"zweiterTeil":" zur Lösung des Problems vor."},
+        {"fremdSatz":"The author elaborates on complex theoretical concepts.","ersterTeil":"Der Autor erläutert komplexe ","lösungswort":["theoretische","konzeptionelle"],"zweiterTeil":" Konzepte."},
+        {"fremdSatz":"Her presentation was exceptionally well-structured.","ersterTeil":"Ihre Präsentation war außergewöhnlich ","lösungswort":["gut strukturiert","durchdacht"],"zweiterTeil":"."},
+        {"fremdSatz":"We must examine the underlying assumptions carefully.","ersterTeil":"Wir müssen die zugrunde liegenden ","lösungswort":["annahmen","voraussetzungen"],"zweiterTeil":" sorgfältig prüfen."},
+        {"fremdSatz":"The analysis draws attention to subtle patterns.","ersterTeil":"Die Analyse lenkt die Aufmerksamkeit auf feine ","lösungswort":["muster","strukturen"],"zweiterTeil":"."},
+        {"fremdSatz":"She demonstrated profound insight into the topic.","ersterTeil":"Sie zeigte ein tiefes ","lösungswort":["verständnis","einsicht"],"zweiterTeil":" in das Thema."},
+        {"fremdSatz":"The lecture explored advanced concepts in linguistics.","ersterTeil":"Die Vorlesung behandelte fortgeschrittene ","lösungswort":["konzepte","begriffe"],"zweiterTeil":" der Linguistik."}
     ],
     "englischC2": [
-        {
-            "fremdSatz": "His writing style is characterized by subtle irony and nuanced vocabulary.",
-            "ersterTeil": "Sein Schreibstil ist geprägt von feiner ",
-            "lösungswort": ["ironie"],
-            "zweiterTeil": " und nuancierter Wortwahl."
-        },
-        {
-            "fremdSatz": "The philosopher questioned the epistemological foundations of science.",
-            "ersterTeil": "Der Philosoph stellte die ",
-            "lösungswort": ["erkenntnistheoretischen"],
-            "zweiterTeil": " Grundlagen der Wissenschaft infrage."
-        }
+        {"fremdSatz":"His writing style is characterized by subtle irony and nuanced vocabulary.","ersterTeil":"Sein Schreibstil ist geprägt von feiner ","lösungswort":["ironie"],"zweiterTeil":" und nuancierter Wortwahl."},
+        {"fremdSatz":"The philosopher questioned the epistemological foundations of science.","ersterTeil":"Der Philosoph stellte die ","lösungswort":["erkenntnistheoretischen"],"zweiterTeil":" Grundlagen der Wissenschaft infrage."},
+        {"fremdSatz":"The treatise presents a sophisticated critique of contemporary thought.","ersterTeil":"Die Abhandlung bietet eine anspruchsvolle ","lösungswort":["kritik","analyse"],"zweiterTeil":" des zeitgenössischen Denkens."},
+        {"fremdSatz":"Her argumentation reflects deep theoretical understanding.","ersterTeil":"Ihre Argumentation zeigt ein tiefes ","lösungswort":["theoretisches verständnis","verständnis"],"zweiterTeil":"."},
+        {"fremdSatz":"The discourse reveals intricate interconnections between concepts.","ersterTeil":"Der Diskurs zeigt komplexe ","lösungswort":["zusammenhänge","interdependenzen"],"zweiterTeil":" zwischen Konzepten."},
+        {"fremdSatz":"He scrutinized the nuances of the legal framework.","ersterTeil":"Er untersuchte die feinen ","lösungswort":["nuancen","details"],"zweiterTeil":" des Rechtsrahmens."},
+        {"fremdSatz":"The essay challenges conventional epistemic assumptions.","ersterTeil":"Der Aufsatz stellt konventionelle ","lösungswort":["erkenntnistheoretische annahmen","annahmen"],"zweiterTeil":" in Frage."},
+        {"fremdSatz":"Her interpretation demonstrates exceptional analytical precision.","ersterTeil":"Ihre Interpretation zeigt außergewöhnliche ","lösungswort":["analytische präzision","genauigkeit"],"zweiterTeil":"."},
+        {"fremdSatz":"The lecture provided profound insights into metaphysical theories.","ersterTeil":"Die Vorlesung bot tiefgehende ","lösungswort":["einsichten","verständnisse"],"zweiterTeil":" in metaphysische Theorien."},
+        {"fremdSatz":"His critical review evaluates subtle philosophical distinctions.","ersterTeil":"Seine kritische Rezension bewertet feine ","lösungswort":["unterschiede","distinktionen"],"zweiterTeil":" in der Philosophie."}
     ],
-
     "französischB1": [
-        {
-            "fremdSatz": "Je vais à l'école en vélo.",
-            "ersterTeil": "Ich fahre mit dem ",
-            "lösungswort": ["fahrrad", "rad"],
-            "zweiterTeil": " zur Schule."
-        },
-        {
-            "fremdSatz": "Nous regardons la télévision le soir.",
-            "ersterTeil": "Wir schauen abends ",
-            "lösungswort": ["fernsehen"],
-            "zweiterTeil": "."
-        }
+        {"fremdSatz":"Je vais à l'école en vélo.","ersterTeil":"Ich fahre mit dem ","lösungswort":["fahrrad","rad"],"zweiterTeil":" zur Schule."},
+        {"fremdSatz":"Nous regardons la télévision le soir.","ersterTeil":"Wir schauen abends ","lösungswort":["fernsehen"],"zweiterTeil":"."},
+        {"fremdSatz":"Elle aime lire des livres le week-end.","ersterTeil":"Sie liest gern am Wochenende ","lösungswort":["bücher","romane"],"zweiterTeil":"."},
+        {"fremdSatz":"Nous jouons au football après l'école.","ersterTeil":"Wir spielen nach der Schule ","lösungswort":["fußball","soccer"],"zweiterTeil":"."},
+        {"fremdSatz":"Je bois du café tous les matins.","ersterTeil":"Ich trinke jeden Morgen ","lösungswort":["kaffee"],"zweiterTeil":"."},
+        {"fremdSatz":"Ils habitent dans une petite ville.","ersterTeil":"Sie wohnen in einer kleinen ","lösungswort":["stadt","ortschaft"],"zweiterTeil":"."},
+        {"fremdSatz":"Elle promène souvent le chien dans le parc.","ersterTeil":"Sie geht oft mit dem Hund im ","lösungswort":["park"],"zweiterTeil":" spazieren."},
+        {"fremdSatz":"Nous allons au cinéma le vendredi soir.","ersterTeil":"Wir gehen freitagabends ins ","lösungswort":["kino","filmkino"],"zweiterTeil":"."},
+        {"fremdSatz":"J'ai un chat et un chien.","ersterTeil":"Ich habe eine ","lösungswort":["katze","hund"],"zweiterTeil":"."},
+        {"fremdSatz":"Elle écoute de la musique chaque soir.","ersterTeil":"Sie hört jeden Abend ","lösungswort":["musik"],"zweiterTeil":"."}
     ],
     "französischB2": [
-        {
-            "fremdSatz": "Il a expliqué son point de vue de manière claire et précise.",
-            "ersterTeil": "Er hat seinen Standpunkt klar und ",
-            "lösungswort": ["präzise", "genau"],
-            "zweiterTeil": " erklärt."
-        },
-        {
-            "fremdSatz": "Le projet doit être terminé dans les délais impartis.",
-            "ersterTeil": "Das Projekt muss innerhalb der vorgegebenen ",
-            "lösungswort": ["frist", "zeit"],
-            "zweiterTeil": " abgeschlossen werden."
-        }
-    ],
-    "französischC1": [
-        {
-            "fremdSatz": "Le roman reflète les tensions sociales de l'époque.",
-            "ersterTeil": "Der Roman spiegelt die sozialen ",
-            "lösungswort": ["spannungen", "konflikte"],
-            "zweiterTeil": " der Epoche wider."
-        },
-        {
-            "fremdSatz": "Elle a développé une argumentation particulièrement cohérente.",
-            "ersterTeil": "Sie entwickelte eine besonders ",
-            "lösungswort": ["kohärente", "stringente"],
-            "zweiterTeil": " Argumentation."
-        }
-    ],
-    "französischC2": [
-        {
-            "fremdSatz": "Sa critique subtile met en lumière les contradictions du discours politique.",
-            "ersterTeil": "Seine subtile Kritik beleuchtet die ",
-            "lösungswort": ["widersprüche"],
-            "zweiterTeil": " des politischen Diskurses."
-        },
-        {
-            "fremdSatz": "La poésie de Baudelaire se caractérise par une grande densité symbolique.",
-            "ersterTeil": "Baudelaires Dichtung ist durch eine große symbolische ",
-            "lösungswort": ["dichte"],
-            "zweiterTeil": " gekennzeichnet."
-        }
-    ],
-
-    "spanischB1": [
-        {
-            "fremdSatz": "Voy al cine con mis amigos.",
-            "ersterTeil": "Ich gehe mit meinen Freunden ins ",
-            "lösungswort": ["kino"],
-            "zweiterTeil": "."
-        },
-        {
-            "fremdSatz": "El perro juega en el jardín.",
-            "ersterTeil": "Der Hund spielt im ",
-            "lösungswort": ["garten"],
-            "zweiterTeil": "."
-        }
-    ],
-    "spanischB2": [
-        {
-            "fremdSatz": "Necesitamos discutir las ventajas y desventajas de la propuesta.",
-            "ersterTeil": "Wir müssen die Vor- und ",
-            "lösungswort": ["nachteile"],
-            "zweiterTeil": " des Vorschlags diskutieren."
-        },
-        {
-            "fremdSatz": "El informe subraya la importancia de la cooperación internacional.",
-            "ersterTeil": "Der Bericht betont die Bedeutung der internationalen ",
-            "lösungswort": ["zusammenarbeit", "kooperation"],
-            "zweiterTeil": "."
-        }
-    ],
-    "spanischC1": [
-        {
-            "fremdSatz": "La novela describe con detalle la transformación de la sociedad.",
-            "ersterTeil": "Der Roman beschreibt detailliert den ",
-            "lösungswort": ["wandel", "umbruch"],
-            "zweiterTeil": " der Gesellschaft."
-        },
-        {
-            "fremdSatz": "Expresó sus ideas con una claridad sorprendente.",
-            "ersterTeil": "Er drückte seine Ideen mit erstaunlicher ",
-            "lösungswort": ["klarheit", "deutlichkeit"],
-            "zweiterTeil": " aus."
-        }
-    ],
-    "spanischC2": [
-        {
-            "fremdSatz": "El ensayo plantea cuestiones epistemológicas complejas.",
-            "ersterTeil": "Der Aufsatz wirft komplexe ",
-            "lösungswort": ["erkenntnistheoretische"],
-            "zweiterTeil": " Fragen auf."
-        },
-        {
-            "fremdSatz": "La obra se caracteriza por un lenguaje poético y altamente simbólico.",
-            "ersterTeil": "Das Werk ist durch eine poetische und stark ",
-            "lösungswort": ["symbolische"],
-            "zweiterTeil": " Sprache gekennzeichnet."
-        }
-    ]
+    {"fremdSatz":"Il a expliqué son point de vue de manière claire et précise.","ersterTeil":"Er hat seinen Standpunkt klar und ","lösungswort":["präzise","genau"],"zweiterTeil":" erklärt."},
+    {"fremdSatz":"Le projet doit être terminé dans les délais impartis.","ersterTeil":"Das Projekt muss innerhalb der vorgegebenen ","lösungswort":["frist","zeit"],"zweiterTeil":" abgeschlossen werden."},
+    {"fremdSatz":"Elle a présenté ses idées de façon structurée.","ersterTeil":"Sie präsentierte ihre Ideen auf eine ","lösungswort":["strukturierte","geordnete"],"zweiterTeil":" Weise."},
+    {"fremdSatz":"Ils ont discuté des avantages et des inconvénients de la solution.","ersterTeil":"Sie haben die Vor- und ","lösungswort":["nachteile","probleme"],"zweiterTeil":" der Lösung diskutiert."},
+    {"fremdSatz":"Il est important d'évaluer les risques potentiels.","ersterTeil":"Es ist wichtig, die ","lösungswort":["potenziellen risiken","risiken"],"zweiterTeil":" zu bewerten."},
+    {"fremdSatz":"La réunion a duré plus longtemps que prévu.","ersterTeil":"Die Besprechung dauerte länger als ","lösungswort":["geplant","erwartet"],"zweiterTeil":"."},
+    {"fremdSatz":"Ils ont mis en place une stratégie efficace.","ersterTeil":"Sie haben eine effektive ","lösungswort":["strategie","planung"],"zweiterTeil":" umgesetzt."},
+    {"fremdSatz":"Il a défendu son idée avec des arguments solides.","ersterTeil":"Er verteidigte seine Idee mit überzeugenden ","lösungswort":["argumenten","begründungen"],"zweiterTeil":"."},
+    {"fremdSatz":"Nous devons prendre en compte toutes les perspectives.","ersterTeil":"Wir müssen alle ","lösungswort":["perspektiven","ansichten"],"zweiterTeil":" berücksichtigen."},
+    {"fremdSatz":"La décision finale sera prise par le comité.","ersterTeil":"Die endgültige Entscheidung wird vom ","lösungswort":["komitee","gremium"],"zweiterTeil":" getroffen."}
+],
+"französischC1": [
+    {"fremdSatz":"Le roman reflète les tensions sociales de l'époque.","ersterTeil":"Der Roman spiegelt die sozialen ","lösungswort":["spannungen","konflikte"],"zweiterTeil":" der Epoche wider."},
+    {"fremdSatz":"Elle a développé une argumentation particulièrement cohérente.","ersterTeil":"Sie entwickelte eine besonders ","lösungswort":["kohärente","stringente"],"zweiterTeil":" Argumentation."},
+    {"fremdSatz":"L'étude fournit une analyse détaillée des résultats.","ersterTeil":"Die Studie liefert eine detaillierte ","lösungswort":["analyse","auswertung"],"zweiterTeil":" der Ergebnisse."},
+    {"fremdSatz":"Il a critiqué les méthodes utilisées dans la recherche.","ersterTeil":"Er kritisierte die in der Forschung verwendeten ","lösungswort":["methoden","verfahren"],"zweiterTeil":"."},
+    {"fremdSatz":"La conférence a abordé des concepts avancés de la linguistique.","ersterTeil":"Die Konferenz behandelte fortgeschrittene ","lösungswort":["konzepte","begriffe"],"zweiterTeil":" der Linguistik."},
+    {"fremdSatz":"Elle a démontré une compréhension approfondie du sujet.","ersterTeil":"Sie zeigte ein tiefgehendes ","lösungswort":["verständnis","wissen"],"zweiterTeil":" des Themas."},
+    {"fremdSatz":"Le débat a mis en lumière des perspectives inédites.","ersterTeil":"Die Debatte beleuchtete bisher unbekannte ","lösungswort":["perspektiven","sichtweisen"],"zweiterTeil":"."},
+    {"fremdSatz":"L'analyse révèle des tendances subtiles dans les données.","ersterTeil":"Die Analyse zeigt feine ","lösungswort":["tendenzen","muster"],"zweiterTeil":" in den Daten."},
+    {"fremdSatz":"L'auteur élabore des théories complexes sur le comportement humain.","ersterTeil":"Der Autor entwickelt komplexe ","lösungswort":["theorien","konzepte"],"zweiterTeil":" über menschliches Verhalten."},
+    {"fremdSatz":"Elle a présenté un argument convaincant et structuré.","ersterTeil":"Sie präsentierte ein überzeugendes und ","lösungswort":["strukturiertes","gegliedertes"],"zweiterTeil":" Argument."}
+],
+"französischC2": [
+    {"fremdSatz":"Sa critique subtile met en lumière les contradictions du discours politique.","ersterTeil":"Seine subtile Kritik beleuchtet die ","lösungswort":["widersprüche"],"zweiterTeil":" des politischen Diskurses."},
+    {"fremdSatz":"La poésie de Baudelaire se caractérise par une grande densité symbolique.","ersterTeil":"Baudelaires Dichtung ist durch eine große symbolische ","lösungswort":["dichte"],"zweiterTeil":" gekennzeichnet."},
+    {"fremdSatz":"L'essai explore des questions philosophiques complexes.","ersterTeil":"Der Aufsatz behandelt komplexe ","lösungswort":["philosophische fragen","fragen"],"zweiterTeil":"."},
+    {"fremdSatz":"Sa réflexion critique démontre une maîtrise exceptionnelle du sujet.","ersterTeil":"Seine kritische Reflexion zeigt eine außergewöhnliche ","lösungswort":["beherrschung","kompetenz"],"zweiterTeil":" des Themas."},
+    {"fremdSatz":"L'ouvrage met en évidence des nuances subtiles dans les concepts.","ersterTeil":"Das Werk zeigt feine ","lösungswort":["nuancen","unterschiede"],"zweiterTeil":" in den Konzepten."},
+    {"fremdSatz":"Il analyse minutieusement les fondements théoriques de l'étude.","ersterTeil":"Er untersucht sorgfältig die ","lösungswort":["theoretischen grundlagen","fundamente"],"zweiterTeil":" der Studie."},
+    {"fremdSatz":"Sa dissertation remet en question des hypothèses épistémologiques traditionnelles.","ersterTeil":"Seine Dissertation stellt traditionelle ","lösungswort":["erkenntnistheoretische annahmen","annahmen"],"zweiterTeil":" infrage."},
+    {"fremdSatz":"L'interprétation de l'œuvre démontre une précision analytique remarquable.","ersterTeil":"Die Interpretation des Werks zeigt außergewöhnliche ","lösungswort":["analytische präzision","genauigkeit"],"zweiterTeil":"."},
+    {"fremdSatz":"Le philosophe explore des distinctions conceptuelles subtiles.","ersterTeil":"Der Philosoph untersucht feine ","lösungswort":["konzeptuelle unterschiede","unterschiede"],"zweiterTeil":"."},
+    {"fremdSatz":"L'article critique des notions complexes avec rigueur et finesse.","ersterTeil":"Der Artikel kritisiert komplexe Begriffe mit ","lösungswort":["sorgfalt","präzision"],"zweiterTeil":" und Feinsinn."}
+],
+"spanischB1": [
+    {"fremdSatz":"Voy al cine con mis amigos.","ersterTeil":"Ich gehe mit meinen Freunden ins ","lösungswort":["kino"],"zweiterTeil":"."},
+    {"fremdSatz":"El perro juega en el jardín.","ersterTeil":"Der Hund spielt im ","lösungswort":["garten"],"zweiterTeil":"."},
+    {"fremdSatz":"Leo un libro cada noche.","ersterTeil":"Ich lese jeden Abend ein ","lösungswort":["buch"],"zweiterTeil":"."},
+    {"fremdSatz":"Vamos de compras los sábados.","ersterTeil":"Wir gehen samstags ","lösungswort":["einkaufen","shoppen"],"zweiterTeil":"."},
+    {"fremdSatz":"Él juega al fútbol después de la escuela.","ersterTeil":"Er spielt nach der Schule gern ","lösungswort":["fußball","soccer"],"zweiterTeil":"."},
+    {"fremdSatz":"Bebo té todas las mañanas.","ersterTeil":"Ich trinke jeden Morgen ","lösungswort":["tee"],"zweiterTeil":"."},
+    {"fremdSatz":"Viven en un pequeño pueblo cerca de las montañas.","ersterTeil":"Sie wohnen in einer kleinen ","lösungswort":["stadt"],"zweiterTeil":" in der Nähe der Berge."},
+    {"fremdSatz":"Ella pasea a menudo por el parque.","ersterTeil":"Sie geht oft im ","lösungswort":["park"],"zweiterTeil":" spazieren."},
+    {"fremdSatz":"Tengo un gato y un perro.","ersterTeil":"Ich habe eine ","lösungswort":["katze","hund"],"zweiterTeil":"."},
+    {"fremdSatz":"Vemos películas los viernes por la noche.","ersterTeil":"Wir schauen freitagabends ","lösungswort":["filme","movies"],"zweiterTeil":"."}
+],
+"spanischB2": [
+    {"fremdSatz":"Necesitamos discutir las ventajas y desventajas de la propuesta.","ersterTeil":"Wir müssen die Vor- und ","lösungswort":["nachteile"],"zweiterTeil":" des Vorschlags diskutieren."},
+    {"fremdSatz":"El informe subraya la importancia de la cooperación internacional.","ersterTeil":"Der Bericht betont die Bedeutung der internationalen ","lösungswort":["zusammenarbeit","kooperation"],"zweiterTeil":"."},
+    {"fremdSatz":"Debemos evaluar cuidadosamente los riesgos.","ersterTeil":"Wir müssen die ","lösungswort":["risiken","gefahren"],"zweiterTeil":" sorgfältig bewerten."},
+    {"fremdSatz":"Ella presentó sus ideas de manera clara y ordenada.","ersterTeil":"Sie präsentierte ihre Ideen klar und ","lösungswort":["geordnet","strukturiert"],"zweiterTeil":"."},
+    {"fremdSatz":"La reunión abordó varios temas importantes.","ersterTeil":"Die Besprechung behandelte mehrere wichtige ","lösungswort":["themen","punkte"],"zweiterTeil":"."},
+    {"fremdSatz":"Él defendió su propuesta con argumentos sólidos.","ersterTeil":"Er verteidigte seinen Vorschlag mit überzeugenden ","lösungswort":["argumenten","begründungen"],"zweiterTeil":"."},
+    {"fremdSatz":"Debemos centrarnos en los objetivos a largo plazo.","ersterTeil":"Wir sollten uns auf ","lösungswort":["langfristige","dauerhafte"],"zweiterTeil":" Ziele konzentrieren."},
+    {"fremdSatz":"Su explicación aclaró muchas dudas.","ersterTeil":"Seine Erklärung ","lösungswort":["klärte","erhellte"],"zweiterTeil":" viele Zweifel."},
+    {"fremdSatz":"El proyecto debe completarse dentro del plazo establecido.","ersterTeil":"Das Projekt muss innerhalb der festgelegten ","lösungswort":["frist","zeit"],"zweiterTeil":" abgeschlossen werden."},
+    {"fremdSatz":"Durante el debate, ella expresó su opinión con claridad.","ersterTeil":"Während der Diskussion äußerte sie ihre Meinung mit ","lösungswort":["klarheit","deutlichkeit"],"zweiterTeil":"."}
+],
+"spanischC1": [
+    {"fremdSatz":"La novela describe con detalle la transformación de la sociedad.","ersterTeil":"Der Roman beschreibt detailliert den ","lösungswort":["wandel","umbruch"],"zweiterTeil":" der Gesellschaft."},
+    {"fremdSatz":"Expresó sus ideas con una claridad sorprendente.","ersterTeil":"Er drückte seine Ideen mit erstaunlicher ","lösungswort":["klarheit","deutlichkeit"],"zweiterTeil":" aus."},
+    {"fremdSatz":"El estudio proporciona un análisis exhaustivo de los datos.","ersterTeil":"Die Studie liefert eine gründliche ","lösungswort":["analyse","auswertung"],"zweiterTeil":" der Daten."},
+    {"fremdSatz":"Propuso un enfoque innovador para resolver el problema.","ersterTeil":"Er schlug einen innovativen ","lösungswort":["ansatz","weg"],"zweiterTeil":" zur Problemlösung vor."},
+    {"fremdSatz":"La investigación destaca tendencias significativas en la sociedad.","ersterTeil":"Die Forschung hebt bedeutende ","lösungswort":["trends","entwicklungen"],"zweiterTeil":" in der Gesellschaft hervor."},
+    {"fremdSatz":"Su presentación estaba excepcionalmente bien estructurada.","ersterTeil":"Ihre Präsentation war außergewöhnlich ","lösungswort":["gut strukturiert","durchdacht"],"zweiterTeil":"."},
+    {"fremdSatz":"Es fundamental examinar cuidadosamente las suposiciones subyacentes.","ersterTeil":"Es ist entscheidend, die zugrunde liegenden ","lösungswort":["annahmen","voraussetzungen"],"zweiterTeil":" sorgfältig zu prüfen."},
+    {"fremdSatz":"El análisis llama la atención sobre patrones sutiles.","ersterTeil":"Die Analyse lenkt die Aufmerksamkeit auf feine ","lösungswort":["muster","strukturen"],"zweiterTeil":"."},
+    {"fremdSatz":"Demostró un profundo conocimiento del tema.","ersterTeil":"Er zeigte ein tiefes ","lösungswort":["verständnis","wissen"],"zweiterTeil":" des Themas."},
+    {"fremdSatz":"La conferencia abordó conceptos avanzados en lingüística.","ersterTeil":"Die Vorlesung behandelte fortgeschrittene ","lösungswort":["konzepte","begriffe"],"zweiterTeil":" der Linguistik."}
+],
+"spanischC2": [
+    {"fremdSatz":"El ensayo plantea cuestiones epistemológicas complejas.","ersterTeil":"Der Aufsatz wirft komplexe ","lösungswort":["erkenntnistheoretische"],"zweiterTeil":" Fragen auf."},
+    {"fremdSatz":"La obra se caracteriza por un lenguaje poético y altamente simbólico.","ersterTeil":"Das Werk ist durch eine poetische und stark ","lösungswort":["symbolische"],"zweiterTeil":" Sprache gekennzeichnet."},
+    {"fremdSatz":"El tratado presenta una crítica sofisticada del pensamiento contemporáneo.","ersterTeil":"Die Abhandlung bietet eine anspruchsvolle ","lösungswort":["kritik","analyse"],"zweiterTeil":" des zeitgenössischen Denkens."},
+    {"fremdSatz":"Su argumentación refleja un profundo entendimiento teórico.","ersterTeil":"Seine Argumentation zeigt ein tiefes ","lösungswort":["theoretisches verständnis","verständnis"],"zweiterTeil":"."},
+    {"fremdSatz":"El discurso revela intrincadas interconexiones entre conceptos.","ersterTeil":"Der Diskurs zeigt komplexe ","lösungswort":["zusammenhänge","interdependenzen"],"zweiterTeil":" zwischen Konzepten."},
+    {"fremdSatz":"Examinó minuciosamente los matices del marco legal.","ersterTeil":"Er untersuchte die feinen ","lösungswort":["nuancen","details"],"zweiterTeil":" des Rechtsrahmens."},
+    {"fremdSatz":"El ensayo desafía las suposiciones epistémicas convencionales.","ersterTeil":"Der Aufsatz stellt konventionelle ","lösungswort":["erkenntnistheoretische annahmen","annahmen"],"zweiterTeil":" in Frage."},
+    {"fremdSatz":"Su interpretación demuestra una precisión analítica excepcional.","ersterTeil":"Seine Interpretation zeigt außergewöhnliche ","lösungswort":["analytische präzision","genauigkeit"],"zweiterTeil":"."},
+    {"fremdSatz":"El filósofo explora sutiles distinciones conceptuales.","ersterTeil":"Der Philosoph untersucht feine ","lösungswort":["konzeptuelle unterschiede","unterschiede"],"zweiterTeil":"."},
+    {"fremdSatz":"El artículo critica nociones complejas con rigor y finura.","ersterTeil":"Der Artikel kritisiert komplexe Begriffe mit ","lösungswort":["sorgfalt","präzision"],"zweiterTeil":" und Feinsinn."}
+]
 }
